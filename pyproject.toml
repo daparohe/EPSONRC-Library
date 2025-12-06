@@ -5,9 +5,9 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "epsonrc"
 version = "0.2.0"
-description = "Python library for controlling industrial robots over TCP/IP"
+description = "Python library for controlling industrial EPSON robots over TCP/IP"
 authors = [
-    {name = "Mateo Neira", email = "mateo.neira@yachaytech.edu.ec"}
+    {name = "David Rosales", email = "daparohe@gmail.com"}
 ]
 readme = "README.md"
 requires-python = ">=3.7"
@@ -30,10 +30,10 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/mateoniksic/epsonrc"
-Repository = "https://github.com/mateoniksic/epsonrc"
-Documentation = "https://github.com/mateoniksic/epsonrc#readme"
-"Bug Tracker" = "https://github.com/mateoniksic/epsonrc/issues"
+Homepage = "https://github.com/daparohe/EPSONRC-Library"
+Repository = "https://github.com/daparohe/EPSONRC-Library"
+Documentation = "https://github.com/daparohe/EPSONRC-Library#readme"
+"Bug Tracker" = "https://github.com/daparohe/EPSONRC-Library/issues"
 
 [tool.setuptools.packages.find]
 where = ["."]
