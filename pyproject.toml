@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "epsonrc"
+version = "0.2.0"
+description = "Python library for controlling industrial robots over TCP/IP"
+authors = [
+    {name = "Mateo Neira", email = "mateo.neira@yachaytech.edu.ec"}
+]
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+keywords = ["robot", "industrial", "automation", "epson", "tcp", "control", "robotics"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Manufacturing",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: System :: Hardware",
+]
+
+[project.urls]
+Homepage = "https://github.com/mateoniksic/epsonrc"
+Repository = "https://github.com/mateoniksic/epsonrc"
+Documentation = "https://github.com/mateoniksic/epsonrc#readme"
+"Bug Tracker" = "https://github.com/mateoniksic/epsonrc/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["epsonrc*"]
